@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player </title>
+  <link rel="stylesheet" href="mp.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="top-bar">
+      <i class="material-icons">expand_more</i>
+      <span>Now Playing</span>
+      <i class="material-icons">more_horiz</i>
+    </div>
+    <div class="img-area">
+      <img src="images1/music-2.jpg" alt="">
+    </div>
+    <div class="song-details">
+      <p class="name">beauz & jvna - crazy</p>
+      <p class="artist">beauz & jvna</p>
+    </div>
+    <div class="progress-area">
+      <div class="progress-bar">
+        
+      </div>
+      <div class="song-timer">
+        <span class="current-time">0:20</span>
+        <span class="max-duration">3:40</span>
+      </div>
+      <audio id="main-audio" src="music-4.mp3"></audio>
+    </div>
+    <div class="controls">
+      <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+      <i id="prev" class="material-icons">skip_previous</i>
+      <div class="play-pause">
+        <i class="material-icons play">play_arrow</i>
+      </div>
+      <i id="next" class="material-icons">skip_next</i>
+      <i id="more-music" class="material-icons">queue_music</i>
+    </div>
+    <div class="music-list">
+      <div class="header">
+        <div class="row">
+          <i class= "list material-icons">queue_music</i>
+          <span>Music list</span>
+        </div>
+        <i id="close" class="material-icons">close</i>
+      </div>
+
+      <ul>
+        <li>
+          <div class ="row">
+            <span> Ikson Anywhere - Ikson</span>
+            <p> Audio Library</p>
+          </div>
+          <span class="audio-duration">3:40</span>
+        </li>
+        <li>
+          <div class ="row">
+            <span> Harley Bird - Home</span>
+            <p> Jordan Schor</p>
+          </div>
+          <span class="audio-duration">3:40</span>
+        </li>
+        <li>
+          <div class ="row">
+            <span> Hardwind - Want Me</span>
+            <p>Mike Archangelo</p>
+          </div>
+          <span class="audio-duration">3:40</span>
+        </li>
+        <li>
+          <div class ="row">
+            <span>Jim - Sun Goes Down</span>
+            <p>Jim Yosef x Roy</p>
+          </div>
+          <span class="audio-duration">3:40</span>
+        </li>
+        <li>
+          <div class ="row">
+            <span>Lost Sky - Vision NCS</span>
+            <p>NCS Release</p>
+          </div>
+          <span class="audio-duration">3:40</span>
+        </li>
+        <li>
+          <div class ="row">
+            <span> Ikson Anywhere - Ikson</span>
+            <p> Audio Library</p>
+          </div>
+          <span class="audio-duration">3:40</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="js/ML.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
